@@ -14,7 +14,7 @@ LIRI will also log all your commands in a 'log.txt' file in case you need to loo
 
 ## How do I use LIRI Bot?
 
-###**Step 1: Accessing LIRI Bot from Terminal**
+### **Step 1: Accessing LIRI Bot from Terminal**
 First, go into the LIRI Bot folder from your terminal, this one is called **liri-bot**
 Always use the following prefix to access the **liri.js** (where all the JS code is stored) file from the **liri-bot** folder\
     
@@ -23,17 +23,27 @@ Always use the following prefix to access the **liri.js** (where all the JS code
 ![Liri Step 1](/images/liri-step-1.png)
 
 
-###**Step 2: Use a Command**
+### **Step 2: Use a Command**
 LIRI can understand 4 commands:\
     > movie-this\
     > concert-this\
     > spotify-this-song\
     > do-what-it-says\
 
-#### Search Movie Details
-Search Syntax: node liri.js movie-this <movie name>
+#### Search Movie Details by Movie Name
+Command: node liri.js movie-this <movie name>
 ![Liri Step 2 Movie](/images/liri-step-2-movie.png)
 
+#### Search Upcoming Concert Details by Artist Name
+Command: node liri.js concert-this <artist name>
+![Liri Step 2 Concert](/images/liri-step-2-concert.png)
 
+#### Search Song Details by Song Name
+Command: node liri.js spotify-this-song <song name>
+![Liri Step 2 Song](/images/liri-step-2-song.png)
+
+#### Command LIRI by Reading Text File
+Command: node liri.js do-what-it-says
+![Liri Step 2 Read](/images/liri-step-2-read.png)
 
 
