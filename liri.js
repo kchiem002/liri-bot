@@ -76,6 +76,14 @@ const doSomething = () => {
         } 
         else {
             newArr = data.split(',')
+            console.log(newArr[0])
+            console.log(newArr[1])
+            searchItem = newArr[1]
+
+            if (newArr[0] === "spotify-this-song") {
+                searchSong()
+            }
+
         }
     })
 }

@@ -10,13 +10,30 @@ Using the command line (terminal), LIRI will be able to return data to you from 
     3. Spotify - Input a song name and LIRI will return data on that song\
 You can also write command in a text file and LIRI will be able to read that text file and run your command.\
     4. Text File - You can tell LIRI to run the command you wrote in the text file\
-LIRI will also log all your commands in a 'log.txt' file in case you need to look up your search history\\
+LIRI will also log all your commands in a 'log.txt' file in case you need to look up your search history\
 
 ## How do I use LIRI Bot?
-**Step 1: Accessing LIRI Bot from Terminal**\
+
+###**Step 1: Accessing LIRI Bot from Terminal**
 First, go into the LIRI Bot folder from your terminal, this one is called **liri-bot**
+Always use the following prefix to access the **liri.js** (where all the JS code is stored) file from the **liri-bot** folder\
+    
+    node liri.js\
 
 ![Liri Step 1](/images/liri-step-1.png)
+
+
+###**Step 2: Use a Command**
+LIRI can understand 4 commands:\
+    > movie-this\
+    > concert-this\
+    > spotify-this-song\
+    > do-what-it-says\
+
+#### Search Movie Details
+Search Syntax: node liri.js movie-this <movie name>
+![Liri Step 2 Movie](/images/liri-step-2-movie.png)
+
 
 
 
