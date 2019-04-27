@@ -69,6 +69,17 @@ const searchSong = () => {
       });
 }
 
+const doSomething = () => {
+    fs.readFile(`random.txt`, 'utf8', (e, data) => {
+        if (e) {
+            console.log(e)
+        } 
+        else {
+            newArr = data.split(',')
+        }
+    })
+}
+
 switch (command) {
     case "movie-this":
         searchMovie()
@@ -79,4 +90,16 @@ switch (command) {
     case "spotify-this-song":
         searchSong()
     break
+    case "do-what-it-says":
+        doSomething()
+    break
 }
+
+// bonus: logging each command
+logItem = searchInput.join(' ')
+logCommandLine = 'node liri.js' + ' ' + command + ' ' + logItem
+fs.appendFile('log.txt', logCommandLine, e => {
+    if (e) {
+      console.log(e)
+    }
+  })
