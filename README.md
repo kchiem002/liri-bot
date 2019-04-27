@@ -31,19 +31,20 @@ LIRI can understand 4 commands:\
     > do-what-it-says\
 
 #### Search Movie Details by Movie Name
-Command: node liri.js movie-this <movie name>
+Command: node liri.js movie-this [movie name]
 ![Liri Step 2 Movie](/images/liri-step-2-movie.png)
 
 #### Search Upcoming Concert Details by Artist Name
-Command: node liri.js concert-this <artist name>
+Command: node liri.js concert-this [artist name]
 ![Liri Step 2 Concert](/images/liri-step-2-concert.png)
 
 #### Search Song Details by Song Name
-Command: node liri.js spotify-this-song <song name>
+Command: node liri.js spotify-this-song [song name]
 ![Liri Step 2 Song](/images/liri-step-2-song.png)
 
 #### Command LIRI by Reading Text File
 Command: node liri.js do-what-it-says
 ![Liri Step 2 Read](/images/liri-step-2-read.png)
+
 
 
